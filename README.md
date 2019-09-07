@@ -1,2 +1,3 @@
 # The-Apps-Clones
-Clones de aplicativos 
+* Clones de aplicativos 
+* Dashboards 
