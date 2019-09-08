@@ -11,10 +11,10 @@
 	<link rel="stylesheet" type="text/css" href="css/sb-admin.min.css">
 
 </head>
-<body class="bg-dark" id="page-top">
+<body class="bg-dark fixed-nav sticky-footer" id="page-top">
 
 	<!-- Navegação !-->
-	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
 		<a class="navbar-brand" href="index.html">Admin Curso</a>
 		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCurso" arial-control="navbarCurso" arial-expanded="false" arial-label="navegação Toggle"> 
 			<span class="navbar-toggler-icon"></span>
@@ -60,9 +60,53 @@
 				</li>
 
 			</ul>
+
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<form class="form-inline my-2 my-lg-o mr-lg-2">
+						<input type="text" class="form-control" placeholder="Pesquisar por...">
+						<span class="input-group-btn">
+							<button class="btn btn-primary" type="button">
+								<i class="fa fa-search"></i>
+							</button>
+						</span>
+					</form>
+				</li>
+
+				<li class="nav-iten">
+					<a class="nav-link" href="#">
+						<i class="fa fa-sign-out">Logout</i>
+					</a>
+				</li>
+			</ul>
 		</div>
 		
 	</nav>
+
+	<div class="content-wrapper">
+		<div class="container-fluid">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item">
+					<a href="index.html">Home</a>
+				</li>
+				<li class="breadcrumb-item">
+					Página em branco
+				</li>
+			</ol>
+			<div class="row">
+				<div class="col-12">
+					<h1>Titulo da página</h1>
+				</div>
+			</div>
+		</div>
+		<footer class="sticky-footer">
+			<div class="container">
+				<div class="text-center">
+					<small>Copyright Seu site 2019</small>
+				</div>
+			</div>
+		</footer>
+	</div>
 	 
 
 	<script src="bibliotecas/jquery/jquery.min.js"></script>
