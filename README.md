@@ -2,3 +2,5 @@
 * Clones de aplicativos 
 * Dashboards 
 * CRUDs
+* Mini-Projects
+
